@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
                         color: Colors.blue,
                         padding: EdgeInsets.all(10.0),
                         child: RaisedButton(
-                          onPressed: (){},
+                          onPressed: () {},
                           child: Text('Description'),
                         ),
                       ),
@@ -67,7 +67,69 @@ class _HomeState extends State<Home> {
                 ),
               ),
               SizedBox(height: 20.0),
-
+              Container(
+                width: 600.0,
+                height: 800.0,
+                color: Colors.amber,
+                child: Column(
+                  children: [
+                    SizedBox(height: 20.0),
+                    Text('What do you want to do today?'),
+                    SizedBox(height: 20.0),
+                    Container(
+                      width: 300.0,
+                      height: 40.0,
+                      child: RaisedButton(
+                        onPressed: () {},
+                        child: Text('Custo Fixo Mensal'),
+                      ),
+                    ),
+                    SizedBox(height: 5.0),
+                    Container(
+                      width: 300.0,
+                      height: 40.0,
+                      child: RaisedButton(
+                        onPressed: () {},
+                        child: Text('Custo Variável Mensal'),
+                      ),
+                    ),
+                    SizedBox(height: 5.0),
+                    Container(
+                      width: 300.0,
+                      height: 40.0,
+                      child: RaisedButton(
+                        onPressed: () {},
+                        child: Text('Emprestei a alguém'),
+                      ),
+                    ),
+                    SizedBox(height: 5.0),
+                    Container(
+                      width: 300.0,
+                      height: 40.0,
+                      child: RaisedButton(
+                        onPressed: () {},
+                        child: Text('Doei a alguém'),
+                      ),
+                    ),
+                    SizedBox(height: 40.0),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                            width: 200.0,
+                            height: 20.0,
+                            color: Colors.pink,
+                        ),
+                        Container(
+                          width: 200.0,
+                          height: 20.0,
+                          color: Colors.pink,
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ));
