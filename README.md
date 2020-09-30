@@ -1,6 +1,6 @@
 # flutterapp100daysofcode
 
-App to help students of a university monitor their progress
+App to help peopel control their finances
 
 ## Getting Started
 
