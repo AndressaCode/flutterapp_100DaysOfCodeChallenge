@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterapp100daysofcode/monthlyFixCosts.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Home()));
@@ -80,7 +81,13 @@ class _HomeState extends State<Home> {
                       width: 300.0,
                       height: 40.0,
                       child: RaisedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => MonthlyFixCosts()
+                              ));
+                        },
                         child: Text('Custo Fixo Mensal'),
                       ),
                     ),
